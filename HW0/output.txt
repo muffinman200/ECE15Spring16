@@ -1,0 +1,1 @@
+Enter driving time in hours: Enter average speed in miles per hour: Enter the MPG of your car: Your cost is 14.850000 dollars

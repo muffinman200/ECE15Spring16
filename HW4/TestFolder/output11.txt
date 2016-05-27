@@ -1,0 +1,156 @@
+Testing display_board().
+
+Empty board:
++---+---+---+---+---+---+---+
+|   |   |   |   |   |   |   |
++---+---+---+---+---+---+---+
+|   |   |   |   |   |   |   |
++---+---+---+---+---+---+---+
+|   |   |   |   |   |   |   |
++---+---+---+---+---+---+---+
+|   |   |   |   |   |   |   |
++---+---+---+---+---+---+---+
+|   |   |   |   |   |   |   |
++---+---+---+---+---+---+---+
+|   |   |   |   |   |   |   |
++---+---+---+---+---+---+---+
+  1   2   3   4   5   6   7 
+Player 1 winner board :
++---+---+---+---+---+---+---+
+| X | X | X | O | X | X | X |
++---+---+---+---+---+---+---+
+| O | O | O | X | O | O | O |
++---+---+---+---+---+---+---+
+| X | X | X | O | X | X | X |
++---+---+---+---+---+---+---+
+| O | X | O | X | O | O | O |
++---+---+---+---+---+---+---+
+| X | X | O | X | X | O | X |
++---+---+---+---+---+---+---+
+| O | X | O |   | O | O | O |
++---+---+---+---+---+---+---+
+  1   2   3   4   5   6   7 
+**********
+
+Testing print_welcome().
+
+*** Welcome to the Connect Four game!!! ***
+Would you like to make the first move [y/n]: Round 1, player_num = 2
+
+*** Welcome to the Connect Four game!!! ***
+Would you like to make the first move [y/n]: Round 2, player_num = 2
+
+*** Welcome to the Connect Four game!!! ***
+Would you like to make the first move [y/n]: Round 3, player_num = 1
+
+*** Welcome to the Connect Four game!!! ***
+Would you like to make the first move [y/n]: Round 4, player_num = 1
+
+*** Welcome to the Connect Four game!!! ***
+Would you like to make the first move [y/n]: Round 5, player_num = 1
+
+**********
+
+Testing check_winner()
+Well, that went badly. Check winner should have said player 1 won
+Well, that went badly. Check winner should have said player 2 won
+Sweet. Didn't accidentally find a win
+**********
+
+Testing check_win_or_tie()
+Well, that went badly. Check winner should have said player 1 won
+Well, that went badly. Check winner should have said player 2 won
+Well, that went badly. Check winner should have said zero
+**********
+
+Testing is_column_full()
+Empty board:
+
+Win1_Board (better report only one empty):
+Column 1 isn't full, nor should it be.
+Column 2 isn't full, nor should it be.
+Column 3 isn't full, nor should it be.
+Column 4 isn't full, nor should it be.
+Column 5 isn't full, nor should it be.
+Column 6 isn't full, nor should it be.
+Column 7 isn't full, nor should it be.
+**********
+
+Testing update_board()
+
+Win1_board
++---+---+---+---+---+---+---+
+| X | X | X | O | X | X | X |
++---+---+---+---+---+---+---+
+| O | O | O | X | O | O | O |
++---+---+---+---+---+---+---+
+| X | X | X | O | X | X | X |
++---+---+---+---+---+---+---+
+| O | X | O | X | O | O | O |
++---+---+---+---+---+---+---+
+| X | X | O | X | X | O | X |
++---+---+---+---+---+---+---+
+| O | X | O |   | O | O | O |
++---+---+---+---+---+---+---+
+  1   2   3   4   5   6   7 
+
+Win2_board
++---+---+---+---+---+---+---+
+| X | X | X | O | X | X | X |
++---+---+---+---+---+---+---+
+| X | O | O | X | O | O | O |
++---+---+---+---+---+---+---+
+| O | X | X | O | X | X | X |
++---+---+---+---+---+---+---+
+| O | O | X | X | O | O | O |
++---+---+---+---+---+---+---+
+| X | O | X | O | X | X | X |
++---+---+---+---+---+---+---+
+| O | O | O | O | X |   | X |
++---+---+---+---+---+---+---+
+  1   2   3   4   5   6   7 
+**********
+
+
+
+**********
+Testing random_move()
+
+One move left, in column 4
+Failed to find correct last move, moved 3 instead.
+**********
+
+Testing player_move()
+Please enter your move: Last Move = 1
+Please enter your move: Last Move = 1
+Please enter your move: Last Move = 1
+Please enter your move: Last Move = 1
+Please enter your move: Last Move = 1
+Please enter your move: Last Move = 1
+Please enter your move: This column is full. Try again!
+Please enter your move: This column is full. Try again!
+Please enter your move: This column is full. Try again!
+Please enter your move: This column is full. Try again!
+Please enter your move: This column is full. Try again!
+Please enter your move: This column is full. Try again!
+Please enter your move: Not a valid move. Enter a column number!
+Please enter your move: Last Move = 7
+Please enter your move: Last Move = 6
+Please enter your move: Last Move = 5
+Please enter your move: Last Move = 4
++---+---+---+---+---+---+---+
+| X |   |   |   |   |   |   |
++---+---+---+---+---+---+---+
+| X |   |   |   |   |   |   |
++---+---+---+---+---+---+---+
+| X |   |   |   |   |   |   |
++---+---+---+---+---+---+---+
+| X |   |   |   |   |   |   |
++---+---+---+---+---+---+---+
+| X |   |   |   |   |   |   |
++---+---+---+---+---+---+---+
+| X |   |   | X | X | X | X |
++---+---+---+---+---+---+---+
+  1   2   3   4   5   6   7 
+**********
+

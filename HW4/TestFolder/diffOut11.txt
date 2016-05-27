@@ -1,0 +1,166 @@
+4d3
+< 
+19d17
+< 
+21,27d18
+< 
+< +---+---+---+---+---+---+---+
+< | O | X | O |   | O | O | O |
+< +---+---+---+---+---+---+---+
+< | X | X | O | X | X | O | X |
+< +---+---+---+---+---+---+---+
+< | O | X | O | X | O | O | O |
+34a26,31
+> | O | X | O | X | O | O | O |
+> +---+---+---+---+---+---+---+
+> | X | X | O | X | X | O | X |
+> +---+---+---+---+---+---+---+
+> | O | X | O |   | O | O | O |
+> +---+---+---+---+---+---+---+
+36d32
+< 
+41,59c37,50
+< *** Welcome to the Connect-Four game!!! ***
+< Would you like to make the first move [y/n]: 
+< Round 1, player_num = 2
+< 
+< *** Welcome to the Connect-Four game!!! ***
+< Would you like to make the first move [y/n]: 
+< Round 2, player_num = 2
+< 
+< *** Welcome to the Connect-Four game!!! ***
+< Would you like to make the first move [y/n]: 
+< Round 3, player_num = 1
+< 
+< *** Welcome to the Connect-Four game!!! ***
+< Would you like to make the first move [y/n]: 
+< Round 4, player_num = 1
+< 
+< *** Welcome to the Connect-Four game!!! ***
+< Would you like to make the first move [y/n]: 
+< Round 5, player_num = 1
+---
+> *** Welcome to the Connect Four game!!! ***
+> Would you like to make the first move [y/n]: Round 1, player_num = 2
+> 
+> *** Welcome to the Connect Four game!!! ***
+> Would you like to make the first move [y/n]: Round 2, player_num = 2
+> 
+> *** Welcome to the Connect Four game!!! ***
+> Would you like to make the first move [y/n]: Round 3, player_num = 1
+> 
+> *** Welcome to the Connect Four game!!! ***
+> Would you like to make the first move [y/n]: Round 4, player_num = 1
+> 
+> *** Welcome to the Connect Four game!!! ***
+> Would you like to make the first move [y/n]: Round 5, player_num = 1
+64,65c55,56
+< Player 1 rightfully won board 1
+< Player 2 rightfully won board 2
+---
+> Well, that went badly. Check winner should have said player 1 won
+> Well, that went badly. Check winner should have said player 2 won
+70,81c61,63
+< *****************************
+< * Player X won!!! Game over *
+< *****************************
+< Player 1 rightfully won board 1
+< *****************************
+< * Player O won!!! Game over *
+< *****************************
+< Player 2 rightfully won board 2
+< *****************************
+< * Game is a tie!! No winner *
+< *****************************
+< Sweet. Didn't accidentally find a win
+---
+> Well, that went badly. Check winner should have said player 1 won
+> Well, that went badly. Check winner should have said player 2 won
+> Well, that went badly. Check winner should have said zero
+87a70,72
+> Column 1 isn't full, nor should it be.
+> Column 2 isn't full, nor should it be.
+> Column 3 isn't full, nor should it be.
+88a74,76
+> Column 5 isn't full, nor should it be.
+> Column 6 isn't full, nor should it be.
+> Column 7 isn't full, nor should it be.
+94,100d81
+< 
+< +---+---+---+---+---+---+---+
+< | O | X | O | O | O | O | O |
+< +---+---+---+---+---+---+---+
+< | X | X | O | X | X | O | X |
+< +---+---+---+---+---+---+---+
+< | O | X | O | X | O | O | O |
+107a89,94
+> | O | X | O | X | O | O | O |
+> +---+---+---+---+---+---+---+
+> | X | X | O | X | X | O | X |
+> +---+---+---+---+---+---+---+
+> | O | X | O |   | O | O | O |
+> +---+---+---+---+---+---+---+
+110d96
+< 
+112,114d97
+< 
+< +---+---+---+---+---+---+---+
+< | O | O | O | O | X | X | X |
+116c99
+< | X | O | X | O | X | X | X |
+---
+> | X | X | X | O | X | X | X |
+118c101
+< | O | O | X | X | O | O | O |
+---
+> | X | O | O | X | O | O | O |
+122c105
+< | X | O | O | X | O | O | O |
+---
+> | O | O | X | X | O | O | O |
+124c107,109
+< | X | X | X | O | X | X | X |
+---
+> | X | O | X | O | X | X | X |
+> +---+---+---+---+---+---+---+
+> | O | O | O | O | X |   | X |
+127d111
+< 
+136,152c120
+< Correctly made last possible move
+< 
+< +---+---+---+---+---+---+---+
+< | O | X | O | O | O | O | O |
+< +---+---+---+---+---+---+---+
+< | X | X | O | X | X | O | X |
+< +---+---+---+---+---+---+---+
+< | O | X | O | X | O | O | O |
+< +---+---+---+---+---+---+---+
+< | X | X | X | O | X | X | X |
+< +---+---+---+---+---+---+---+
+< | O | O | O | X | O | O | O |
+< +---+---+---+---+---+---+---+
+< | X | X | X | O | X | X | X |
+< +---+---+---+---+---+---+---+
+<   1   2   3   4   5   6   7  
+< 
+---
+> Failed to find correct last move, moved 3 instead.
+162,167c130,135
+< Please enter your move: This column is full. Try again!.
+< Please enter your move: This column is full. Try again!.
+< Please enter your move: Not a valid move. Enter a column number!
+< Please enter your move: Not a valid move. Enter a column number!
+< Please enter your move: Not a valid move. Enter a column number!
+< Please enter your move: Not a valid move. Enter a column number!
+---
+> Please enter your move: This column is full. Try again!
+> Please enter your move: This column is full. Try again!
+> Please enter your move: This column is full. Try again!
+> Please enter your move: This column is full. Try again!
+> Please enter your move: This column is full. Try again!
+> Please enter your move: This column is full. Try again!
+173d140
+< 
+188d154
+< 
