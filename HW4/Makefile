@@ -12,10 +12,10 @@ OBJS = $(patsubst %.c, %.o, $(filter %.c, $(SRCS)))
 
 JUNK = *.o
 
-CC = g++
-LD = g++
+CC = gcc
+LD = gcc
 
-CFLAGS = -g -Wall 
+CFLAGS = -g -Wall -std=c99
 
 .c.o: $*.c
 	$(CC) $(CFLAGS) -c -o $@ $*.c
